@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Bscscan.com on 2020-09-20
-*/
-
 // File: @openzeppelin/contracts/math/Math.sol
 
 pragma solidity ^0.5.0;
@@ -222,7 +218,7 @@ contract Ownable is Context {
     }
 }
 
-// File: contracts/BFI/IRewardDistributionRecipient.sol
+// File: contracts/IRewardDistributionRecipient.sol
 
 pragma solidity ^0.5.0;
 
@@ -557,7 +553,7 @@ library SafeERC20 {
     }
 }
 
-// File: contracts/BFI/LPTokenWrapper.sol
+// File: contracts/LPTokenWrapper.sol
 
 pragma solidity ^0.5.0;
 
@@ -594,7 +590,7 @@ contract LPTokenWrapper {
     }
 }
 
-// File: BFI/RewardPool.sol
+// File: RewardPool.sol
 
 pragma solidity ^0.5.0;
 

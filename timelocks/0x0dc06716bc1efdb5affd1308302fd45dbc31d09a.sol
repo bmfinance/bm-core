@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Bscscan.com on 2020-09-19
-*/
-
 // File: @openzeppelin/contracts/token/ERC20/IERC20.sol
 
 pragma solidity ^0.5.0;
@@ -390,7 +386,7 @@ library SafeERC20 {
     }
 }
 
-// File: BFI/TokenTimelock.sol
+// File: TokenTimelock.sol
 
 pragma solidity ^0.5.0;
 

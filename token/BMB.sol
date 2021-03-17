@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Bscscan.com on 2020-09-20
-*/
-
 // File: @openzeppelin/contracts/GSN/Context.sol
 
 pragma solidity ^0.5.0;
@@ -708,7 +704,7 @@ library SafeERC20 {
     }
 }
 
-// File: BFI/YFI.sol
+// File: YFI.sol
 
 pragma solidity ^0.5.16;
 
@@ -717,7 +713,7 @@ pragma solidity ^0.5.16;
 
 
 
-contract BIFI is ERC20, ERC20Detailed {
+contract BNB is ERC20, ERC20Detailed {
     using SafeERC20 for IERC20;
     using Address for address;
     using SafeMath for uint256;
@@ -725,7 +721,7 @@ contract BIFI is ERC20, ERC20Detailed {
     address public governance;
     mapping(address => bool) public minters;
 
-    constructor() public ERC20Detailed("beefy.finance", "BIFI", 18) {
+    constructor() public ERC20Detailed("bm.finance", "BMB", 18) {
         governance = msg.sender;
     }
 
