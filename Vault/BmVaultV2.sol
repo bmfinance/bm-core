@@ -861,7 +861,7 @@ contract Ownable is Context {
     }
 }
 
-// File: contracts/BIFI/interfaces/beefy/IStrategy.sol
+// File: IStrategy.sol
 
 
 pragma solidity ^0.6.0;
@@ -874,7 +874,7 @@ interface IStrategy {
     function harvest() external;
 }
 
-// File: contracts/BIFI/vaults/BeefyVaultV2.sol
+// File: BmVaultV2.sol
 
 
 pragma solidity ^0.6.0;
@@ -890,7 +890,7 @@ pragma solidity ^0.6.0;
  * This is the contract that receives funds and that users interface with.
  * The yield optimizing strategy itself is implemented in a separate 'Strategy.sol' contract.
  */
-contract BeefyVaultV2 is ERC20, Ownable {
+contract BmVaultV2 is ERC20, Ownable {
     using SafeERC20 for IERC20;
     using Address for address;
     using SafeMath for uint256;
